@@ -109,12 +109,7 @@ img {
   background-color: #2773b1;
   color: var(--light-grey-color);
 }
-/* Задає характеристики кнопок при ховері й фокусі */
-.button:focus,
-.button:hover {
-  background-color: var(--accent-color);
-  color: var(--white-color);
-}
+
 
 /* Задає характеристики кнопки героя при ховері й фокусі */
 .main-button:focus,
@@ -548,6 +543,13 @@ li:last-child .nav-link {
   margin-bottom: 96px;
 }
 
+.portfolio-wrapper:hover {
+  box-shadow: 
+  0px 1px 1px rgba(0, 0, 0, 0.12), 
+  0px 4px 4px rgba(0, 0, 0, 0.06), 
+  1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .portfolio-button {
   justify-content: center;
   display: flex;
@@ -606,4 +608,15 @@ li:last-child .nav-link {
   border: none;
   cursor: pointer;
   text-align: center;
+}
+
+/* Задає характеристики кнопок при ховері й фокусі */
+.button:focus,
+.button:hover {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  box-shadow: 
+  0px 1px 1px rgba(0, 0, 0, 0.12), 
+  0px 4px 4px rgba(0, 0, 0, 0.06), 
+  1px 4px 6px rgba(0, 0, 0, 0.16);
 }
