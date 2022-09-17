@@ -498,7 +498,8 @@ li:last-child .nav-link {
   background-color: rgba(255, 255, 255, 0.1);
   }
 
-  .footer-inite-links-container:hover {
+  .footer-inite-links-container:hover,
+  .footer-inite-links-container:focus {
     background-color: var(--accent-color);
   }
 
